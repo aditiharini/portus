@@ -6,3 +6,5 @@ However, CCP is built around the idea of moving the core congestion control logi
 Thus, writing an algorithm in CCP actually involves writing two programs that work in tandem and communicate asynchronously, which requires a slightly different way of thinking about congestion control implementation.
 
 More details can be found in our [SIGCOMM '18 paper](https://people.csail.mit.edu/frankc/pubs/ccp-sigcomm.pdf).
+
+The datapath program language is detailed in the [following section](./datapath.md). 
